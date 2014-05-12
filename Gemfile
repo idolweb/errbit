@@ -87,6 +87,7 @@ end
 
 group :development do
   gem 'capistrano', '~> 2.0', :require => false
+  gem 'rvm-capistrano'
 
   # better errors
   gem 'better_errors'
@@ -94,8 +95,6 @@ group :development do
   gem 'meta_request'
   gem 'foreman', :require => false
 
-  # Use puma for development
-  gem 'puma', :require => false
 
 end
 
@@ -110,7 +109,7 @@ group :test do
 end
 
 group :heroku, :production do
-  gem 'unicorn', :require => false
+  gem 'puma', :require => false
 end
 
 
