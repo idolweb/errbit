@@ -33,8 +33,6 @@ production:
     default:
       database: errbit
       hosts:
-        - mongo-1
-      username:
-      password:
+        - mongo-1:27017
   options:
     identity_map_enabled: true
