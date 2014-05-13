@@ -3,9 +3,9 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 tmp/*
-config/config.yml
 config/deploy.rb
 config/deploy
+config/config.yml
 config/mongoid.yml
 config/newrelic.yml
 .rvmrc
