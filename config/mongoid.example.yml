@@ -34,7 +34,7 @@ production:
       database: errbit
       hosts:
         - mongo-1
-      username:
-      password:
+      username: errbit
+      password: errbit
   options:
     identity_map_enabled: true
