@@ -71,7 +71,7 @@ gravatar_default: identicon
 deployment:
   hosts:
     web: errbit-app-1
-    app: errbit-app-1
+    app: errbit-app-1, errbit-app-2
     db: errbit-app-1
   repository: https://github.com/idolweb/errbit.git
   branch: master
